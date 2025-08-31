@@ -14,10 +14,10 @@ spec:
   tolerations:
   - key: "key1"
     operator: "Equal"
-    value: "value1"
+    value: " value1"
     effect: "NoExecute"   # It can be NoSchedule or NoExecute or NoExecute
   tolerations:
   - key: "key1"
     operator: "Equal"
-    value: "value1"
+    value: " value1"
     effect: "NoSchedule" 
