@@ -12,12 +12,12 @@ spec:
   nodeSelector:
     demo: naminglaebls
   tolerations:
-  - key: "demo"
+  - key: "key1"
     operator: "Equal"
-    value: "naminglaebls"
+    value: "value1"
     effect: "NoExecute"   # It can be NoSchedule or NoExecute or NoExecute
   tolerations:
-  - key: "demo"
+  - key: "key1"
     operator: "Equal"
-    value: "naminglaebls"
+    value: "value1"
     effect: "NoSchedule" 
