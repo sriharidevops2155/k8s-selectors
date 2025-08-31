@@ -11,3 +11,8 @@ spec:
     imagePullPolicy: Always
   nodeSelector:
     demo: naminglaebls
+  tolerations:
+  - key: "demo"
+    operator: "Equal"
+    value: "naminglaebls"
+    effect: "NoExecute"   # It can be NoSchedule or NoExecute or NoExecute
