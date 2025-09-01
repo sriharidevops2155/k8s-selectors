@@ -11,8 +11,7 @@ spec:
           - key: hardware
             operator: In
             values:
-            #- gpu
-             - gpuuuu
+            - gpu
   containers:
   - name: with-node-affinity
     image: nginx
