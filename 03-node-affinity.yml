@@ -19,7 +19,7 @@ spec:
           - key: hardware
             operator: In
             values:
-            - gpu
+            - gpupoiuytre
   containers:
   - name: with-node-affinity
     image: nginx
