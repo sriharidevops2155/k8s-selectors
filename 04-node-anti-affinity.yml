@@ -9,7 +9,7 @@ spec:
         nodeSelectorTerms:
         - matchExpressions:
           - key: hardware
-            operator: NotIn
+            operator: NotIn   # It makes not to go to this node IMPPPPPPPPPPPPP
             values:
             - gpu
       # preferredDuringSchedulingIgnoredDuringExecution:
