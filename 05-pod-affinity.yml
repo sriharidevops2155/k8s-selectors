@@ -32,7 +32,7 @@ spec:
         podAffinityTerm:
           labelSelector:
             matchExpressions:
-            - key: app-name
+            - key: app-nameeeee
               operator: In
               values:
               - pod-1
